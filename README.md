@@ -5,25 +5,25 @@ The Multi-Agent AI Business Insights System is an intelligent data analytics pip
 This project simulates a real-world AI-driven Business Intelligence system using multiple AI agents.
 
 ## Features
-Data Cleaning Agent
+## Data Cleaning Agent
 - Handles missing values
 - Removes duplicate records
 - Standardizes data for analysis
-EDA Agent (Exploratory Data Analysis)
+## EDA Agent (Exploratory Data Analysis)
 - Dataset overview (shape, columns, types)
 - Statistical summaries
 - Correlation analysis
 - Pattern detection
-KPI Agent
+## KPI Agent
 - Revenue calculation
 - Customer analysis
 - Sales performance metrics
 - Business growth indicators
-Insight Generator Agent (LLM Powered)
+## Insight Generator Agent (LLM Powered)
 - Converts raw data into business insights
 - Detects risks and opportunities
 - Explains trends 
-Report Generator Agent
+## Report Generator Agent
 - Combines outputs from all agents
 - Generates structured business report
 
@@ -51,12 +51,21 @@ LLM Models (GPT-4o-mini / Mistral / others)
 ## Project Structure
 Multi-Agent-AI-System/
 │
-├── Multi_Agent_AI.py        # Main pipeline script
 ├── data/
-│   └── shopping_trends.csv  # Sample dataset
-├── final_report.txt         # Generated output report
+│   └── shopping_trends.csv
+│
+├── outputs/
+│   ├── cleaned_data.csv
+│   ├── charts/
+│   │   ├── chart1.png
+│   │   ├── chart2.png
+│   │   └── chart3.png
+│   └── final_report.txt
+│
+├── Multi_Agent_AI.py
 ├── requirements.txt
-└── README.md
+├── README.md
+└── .gitignore
 
 ## Installation 
 - Install dependencies
