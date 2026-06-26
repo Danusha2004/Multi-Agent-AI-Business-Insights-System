@@ -49,6 +49,7 @@ OpenRouter API
 LLM Models (GPT-4o-mini / Mistral / others)
 
 ## Project Structure
+```text
 Multi-Agent-AI-System/
 │
 ├── data/
@@ -65,7 +66,8 @@ Multi-Agent-AI-System/
 ├── Multi_Agent_AI.py
 ├── requirements.txt
 ├── README.md
-└── .gitignore
+└──.gitignore
+```
 
 ## Installation 
 - Install dependencies
