@@ -66,7 +66,7 @@ Multi-Agent-AI-System/
 ├── Multi_Agent_AI.py
 ├── requirements.txt
 ├── README.md
-└──.gitignore
+└── .gitignore
 ```
 
 ## Installation 
